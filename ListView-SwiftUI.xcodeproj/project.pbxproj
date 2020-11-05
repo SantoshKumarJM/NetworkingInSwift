@@ -13,6 +13,8 @@
 		AA4A12AE2553DF3D00D551EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4A12AD2553DF3D00D551EA /* Preview Assets.xcassets */; };
 		AA4A12B92553DF3D00D551EA /* ListView_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A12B82553DF3D00D551EA /* ListView_SwiftUITests.swift */; };
 		AA4A12C42553DF3D00D551EA /* ListView_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A12C32553DF3D00D551EA /* ListView_SwiftUIUITests.swift */; };
+		AA4A12DB2553DF8000D551EA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A12DA2553DF8000D551EA /* NetworkManager.swift */; };
+		AA4A12E32553DF9000D551EA /* ToDoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A12E22553DF9000D551EA /* ToDoListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		AA4A12BF2553DF3D00D551EA /* ListView-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ListView-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A12C32553DF3D00D551EA /* ListView_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		AA4A12C52553DF3D00D551EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4A12DA2553DF8000D551EA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AA4A12E22553DF9000D551EA /* ToDoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				AA4A12A62553DF3A00D551EA /* ListView_SwiftUIApp.swift */,
-				AA4A12A82553DF3A00D551EA /* ContentView.swift */,
+				AA4A12D92553DF7200D551EA /* NetworkManager */,
+				AA4A12D82553DF6D00D551EA /* Models */,
+				AA4A12D42553DF6600D551EA /* Views */,
 				AA4A12AA2553DF3D00D551EA /* Assets.xcassets */,
 				AA4A12AF2553DF3D00D551EA /* Info.plist */,
 				AA4A12AC2553DF3D00D551EA /* Preview Content */,
@@ -128,6 +134,30 @@
 				AA4A12C52553DF3D00D551EA /* Info.plist */,
 			);
 			path = "ListView-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		AA4A12D42553DF6600D551EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A12A82553DF3A00D551EA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA4A12D82553DF6D00D551EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A12E22553DF9000D551EA /* ToDoListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA4A12D92553DF7200D551EA /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A12DA2553DF8000D551EA /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4A12DB2553DF8000D551EA /* NetworkManager.swift in Sources */,
+				AA4A12E32553DF9000D551EA /* ToDoListModel.swift in Sources */,
 				AA4A12A92553DF3A00D551EA /* ContentView.swift in Sources */,
 				AA4A12A72553DF3A00D551EA /* ListView_SwiftUIApp.swift in Sources */,
 			);
